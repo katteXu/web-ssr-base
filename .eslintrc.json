@@ -1,0 +1,19 @@
+{
+  "plugins": ["prettier","react"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console":"warn",
+    "no-unused-vars":"warn",
+    "react/jsx-uses-vars": 2
+  },
+  "parserOptions":{
+    "ecmaVersion":6,
+    "sourceType":"module",
+    "ecmaFeatures":{
+      "jsx":true,
+      "experimentalObjectRestSpread":true,
+      "modules":true
+    }
+  }
+}
